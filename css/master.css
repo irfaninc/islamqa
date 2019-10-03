@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import '//fonts.googleapis.com/css?family=Roboto:400';
+@import 'bootstrap-4.3.1/bootstrap.min.css';
+@import 'bootstrap-rtl.min.css';
+
+@font-face {
+  font-family: mv eamaan xp;
+  src: url(../fonts/MvEamaanXP.ttf)format('truetype');
+}
+
+@font-face {
+  font-family: mv mag round;
+  src: url(../fonts/Mv_MAG_Round_Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: mv faseyha;
+  src: url(../fonts/MVFaseyha.otf) format('opentype');
+}
+
+body{
+  font-family: mv faseyha, faruma, thaana unicode akeh;
+}
+
+.thaana {
+  font-family: mv faseyha, faruma, thaana unicode akeh;
+  unicode-bidi: embed;
+  direction: rtl
+}
+
+.thaana-bold {
+  font-family: mv eamaan xp, mv faseyha, faruma, thaana unicode akeh;
+  unicode-bidi: embed;
+  font-size: 14px;
+  direction: rtl;
+  font-weight: 400
+}
+
+h1.thaana-bold{
+  font-size: 36px;
+}
